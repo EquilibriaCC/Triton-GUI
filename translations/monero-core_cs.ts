@@ -2176,8 +2176,8 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Pro každou transakci je účtován malý transakční poplatek. Tato volba vám umožní přidat částku z tohoto poplatku do vaší transakce na podporu vývoje společnosti Monero. Například 50% autodonace převezme transakční poplatek 0,005 XMR a přidá 0,0025 XMR k podpoře vývoje společnosti Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Pro každou transakci je účtován malý transakční poplatek. Tato volba vám umožní přidat částku z tohoto poplatku do vaší transakce na podporu vývoje společnosti Monero. Například 50% autodonace převezme transakční poplatek 0,005 XTR a přidá 0,0025 XTR k podpoře vývoje společnosti Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2761,7 +2761,7 @@ Index výdajů: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Je dostupná nová verze grafického klienta: %1&lt;br&gt;%2</translation>
     </message>
     <message>

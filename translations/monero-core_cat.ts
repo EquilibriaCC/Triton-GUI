@@ -363,7 +363,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your Triton keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1887,9 +1887,9 @@ Tamany de ring: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="672"/>
-        <source>Connected daemon is not compatible with GUI. 
+        <source>Connected daemon is not compatible with GUI.
 Please upgrade or connect to another daemon</source>
-        <translation>El daemon connectat no és comptible amb la GUI. 
+        <translation>El daemon connectat no és comptible amb la GUI.
 Actualitzi o connecti&apos;s a un altre daemon</translation>
     </message>
     <message>
@@ -1964,7 +1964,7 @@ Actualitzi o connecti&apos;s a un altre daemon</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="70"/>
-        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
+        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message.
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2136,8 +2136,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Per cada transacció es carrega una petita comissió. Aquesta opció permet afegir una cantita adicional, com a porcentatge d&apos;aquesta comissió, per a donar suport a Monero. Per exemple, una autodonació del 50%  d&apos;una comissió de 0.005 XMR afegeix0.0025 XMR per donar suport al desenvolupament de Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Per cada transacció es carrega una petita comissió. Aquesta opció permet afegir una cantita adicional, com a porcentatge d&apos;aquesta comissió, per a donar suport a Monero. Per exemple, una autodonació del 50%  d&apos;una comissió de 0.005 XTR afegeix0.0025 XTR per donar suport al desenvolupament de Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2254,9 +2254,9 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="387"/>
-        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
+        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in:
 %1</source>
-        <translation>El moneder de només lectura ha sigut creat. Pot obrir-lo tancant el moneder actual, fent click a &quot;Obrir moneder des del fitxer&quot; i sel·leccionant el moneder de només lectura a: 
+        <translation>El moneder de només lectura ha sigut creat. Pot obrir-lo tancant el moneder actual, fent click a &quot;Obrir moneder des del fitxer&quot; i sel·leccionant el moneder de només lectura a:
 %1</translation>
     </message>
     <message>
@@ -2587,7 +2587,7 @@ Comissió:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="823"/>
-        <source>Couldn&apos;t generate a proof because of the following reason: 
+        <source>Couldn&apos;t generate a proof because of the following reason:
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2779,8 +2779,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versió de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova versió de triton-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1817"/>

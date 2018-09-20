@@ -2173,8 +2173,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantia adicional de percentagem desta taxa para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 XMR adiciona 0.0025 XMR que será enviado para o fundo comum de ajuda ao desenvolvimento do Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantia adicional de percentagem desta taxa para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 XTR adiciona 0.0025 XTR que será enviado para o fundo comum de ajuda ao desenvolvimento do Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2751,7 +2751,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Nova versão da GUI do Monero disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>

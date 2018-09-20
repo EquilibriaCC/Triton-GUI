@@ -1,21 +1,21 @@
 // Copyright (c) 2014-2018, The Monero Project
-// 
+//
 // All rights reserved.
-// 
+//
 // Redistribution and use in source and binary forms, with or without modification, are
 // permitted provided that the following conditions are met:
-// 
+//
 // 1. Redistributions of source code must retain the above copyright notice, this list of
 //    conditions and the following disclaimer.
-// 
+//
 // 2. Redistributions in binary form must reproduce the above copyright notice, this list
 //    of conditions and the following disclaimer in the documentation and/or other
 //    materials provided with the distribution.
-// 
+//
 // 3. Neither the name of the copyright holder nor the names of its contributors may be
 //    used to endorse or promote products derived from this software without specific
 //    prior written permission.
-// 
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
 // EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 // MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
@@ -138,7 +138,7 @@ Rectangle{
                         anchors.fill: parent
                         enabled: false
                     }
-                }   
+                }
             }
 
             MouseArea {
@@ -229,7 +229,7 @@ Rectangle{
                     textMargin: 0
                     leftPadding: 0
                     topPadding: 0
-                    text: qsTr("Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.") + translationManager.emptyString
+                    text: qsTr("Uses a third-party server to connect to the Triton network. Less secure, but easier on your computer.") + translationManager.emptyString
                     width: parent.width - (remoteNodeIcon.width + remoteNodeIcon.anchors.leftMargin + anchors.leftMargin)
 
                     // @TODO: Legacy. Remove after Qt 5.8.
@@ -274,7 +274,7 @@ Rectangle{
             MoneroComponents.WarningBox {
                 Layout.topMargin: 26 * scaleRatio
                 Layout.bottomMargin: 6 * scaleRatio
-                text: qsTr("To find a remote node, type 'Monero remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
+                text: qsTr("To find a remote node, type 'Triton remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
             }
 
             MoneroComponents.RemoteNodeEdit {
@@ -356,9 +356,9 @@ Rectangle{
                         persistentSettings.daemonUsername = daemonUsername.text;
                         persistentSettings.daemonPassword = daemonPassword.text;
                         persistentSettings.useRemoteNode = true
-    
+
                         currentWallet.setDaemonLogin(persistentSettings.daemonUsername, persistentSettings.daemonPassword);
-    
+
                         appWindow.connectRemoteNode()
                     }
                 }
@@ -464,7 +464,7 @@ Rectangle{
                         id: bootstrapNodeEdit
                         Layout.minimumWidth: 100 * scaleRatio
                         Layout.bottomMargin: 20 * scaleRatio
-    
+
                         lineEditBackgroundColor: "transparent"
                         lineEditFontColor: "white"
                         lineEditBorderColor: MoneroComponents.Style.inputBorderColorActive
@@ -491,7 +491,6 @@ Rectangle{
                     }
                 }
             }
-        } 
+        }
     }
 }
-

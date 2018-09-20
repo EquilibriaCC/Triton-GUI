@@ -2175,8 +2175,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをMoneroの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 XMRであった場合、0.0025 XMRが開発チームへの寄付として取引に上乗せされます。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをMoneroの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 XTRであった場合、0.0025 XTRが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2650,12 +2650,12 @@ Amount: </source>
     <message>
         <location filename="../main.qml" line="861"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>このアドレスは%1XMRを受け取りましたが、取引はまだ承認されていません。</translation>
+        <translation>このアドレスは%1XTRを受け取りましたが、取引はまだ承認されていません。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="864"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>このアドレスは%1XMRを受け取り、その取引は%2回承認されました。</translation>
+        <translation>このアドレスは%1XTRを受け取り、その取引は%2回承認されました。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -2694,8 +2694,8 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>新しいバージョンのmonero-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>新しいバージョンのtriton-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="624"/>

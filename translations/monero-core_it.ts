@@ -2165,8 +2165,8 @@ In caso di prova di spesa, non serve specificare l&apos;indirizzo del ricevente.
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Per ogni transazione si paga una piccola commissione. Questa opzione ti permette di aggiungere un importo addizionale per supportare lo sviluppo di Monero. Per esempio, con una autodonazione del 50% si pagano 0,005 XMR di commissioni ed altri 0,0025 per il supporto allo sviluppo di Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Per ogni transazione si paga una piccola commissione. Questa opzione ti permette di aggiungere un importo addizionale per supportare lo sviluppo di Monero. Per esempio, con una autodonazione del 50% si pagano 0,005 XTR di commissioni ed altri 0,0025 per il supporto allo sviluppo di Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2734,7 +2734,7 @@ Indice indirizzo di spesa: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>E&apos; disponibile una nuova versione dell&apos;interfaccia grafica: %1&lt;br&gt;%2</translation>
     </message>
     <message>

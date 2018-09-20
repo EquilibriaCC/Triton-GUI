@@ -2175,8 +2175,8 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Pour chaque transaction, de petits frais de transaction doivent être payés. Cette option vous laisse ajouter un montant additionnel, un pourcentage de ces frais, à votre transaction pour soutenir le développement de Monero. Par exemple, un auto-don de 50% avec des frais de transaction de 0.005 XMR ajoutera 0.0025 XMR pour soutenir le développement de Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Pour chaque transaction, de petits frais de transaction doivent être payés. Cette option vous laisse ajouter un montant additionnel, un pourcentage de ces frais, à votre transaction pour soutenir le développement de Monero. Par exemple, un auto-don de 50% avec des frais de transaction de 0.005 XTR ajoutera 0.0025 XTR pour soutenir le développement de Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2743,8 +2743,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Une nouvelle version de monero-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Une nouvelle version de triton-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1817"/>

@@ -11,7 +11,7 @@ AppName=Monero GUI Wallet
 AppVersion=0.12.3.0
 DefaultDirName={pf}\Monero GUI Wallet
 DefaultGroupName=Monero GUI Wallet
-UninstallDisplayIcon={app}\monero-wallet-gui.exe
+UninstallDisplayIcon={app}\triton-wallet-gui.exe
 PrivilegesRequired=admin
 ArchitecturesInstallIn64BitMode=x64
 ArchitecturesAllowed=x64
@@ -52,13 +52,13 @@ Source: "ReadMe.htm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "FinishImage.bmp"; Flags: dontcopy
 
 ; Monero GUI wallet
-Source: "bin\monero-wallet-gui.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\triton-wallet-gui.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Monero GUI wallet log file
 ; The GUI wallet does not have the "--log-file" command-line option of the CLI wallet and insists to put the .log beside the .exe
 ; so pre-create the file and give the necessary permissions to the wallet to write into it
 ; Flag is "onlyifdoesntexist": We do not want to overwrite an already existing log
-Source: "monero-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
+Source: "triton-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
 
 ; Monero CLI wallet
 Source: "bin\monero-wallet-cli.exe"; DestDir: "{app}"; Flags: ignoreversion
@@ -100,23 +100,23 @@ Source: "bin\audio\*"; DestDir: "{app}\audio"; Flags: recursesubdirs ignoreversi
 ; Qt bearer / network connection management
 Source: "bin\bearer\*"; DestDir: "{app}\bearer"; Flags: recursesubdirs ignoreversion
 
-; Qt Windows platform plugins	
+; Qt Windows platform plugins
 Source: "bin\platforms\*"; DestDir: "{app}\platforms"; Flags: recursesubdirs ignoreversion
 Source: "bin\platforminputcontexts\*"; DestDir: "{app}\platforminputcontexts"; Flags: recursesubdirs ignoreversion
 ; No more "styles" subdirectory in 0.12.3.0
 
-; Qt support for SVG icons	
+; Qt support for SVG icons
 Source: "bin\iconengines\*"; DestDir: "{app}\iconengines"; Flags: recursesubdirs ignoreversion
 
-; Qt support for various image formats (JPEG, BMP, SVG etc)	
+; Qt support for various image formats (JPEG, BMP, SVG etc)
 Source: "bin\imageformats\*"; DestDir: "{app}\imageformats"; Flags: recursesubdirs ignoreversion
 
-; Qt multimedia support	
+; Qt multimedia support
 Source: "bin\QtMultimedia\*"; DestDir: "{app}\QtMultimedia"; Flags: recursesubdirs ignoreversion
 Source: "bin\mediaservice\*"; DestDir: "{app}\mediaservice"; Flags: recursesubdirs ignoreversion
 
 ; Qt support for "m3u" playlists
-; candidate for elimination? Don't think the GUI wallet needs such playlists	
+; candidate for elimination? Don't think the GUI wallet needs such playlists
 Source: "bin\playlistformats\*"; DestDir: "{app}\playlistformats"; Flags: recursesubdirs ignoreversion
 
 ; Qt graphical effects as part of the core runtime, effects like blurring and blending
@@ -202,7 +202,7 @@ Source: "bin\liblcms2-2.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; XZ Utils, LZMA compression library
 Source: "bin\liblzma-5.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-; MNG / Portable Network Graphics ("animated PNG") 
+; MNG / Portable Network Graphics ("animated PNG")
 Source: "bin\libmng-2.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 ; PCRE, Perl Compatible Regular Expressions
@@ -239,7 +239,7 @@ Name: desktopicon; Description: "Create a &desktop icon"; GroupDescription: "Add
 Filename: "{app}\ReadMe.htm"; Description: "Show ReadMe"; Flags: postinstall shellexec skipifsilent
 
 ; DON'T offer to run the wallet right away, let the people read about initial blockchain download first in the ReadMe
-; Filename: "{app}\monero-wallet-gui.exe"; Description: "Run GUI Wallet now"; Flags: postinstall nowait skipifsilent
+; Filename: "{app}\triton-wallet-gui.exe"; Description: "Run GUI Wallet now"; Flags: postinstall nowait skipifsilent
 
 
 [Code]
@@ -264,7 +264,7 @@ begin
 
   // Additional wizard page for entering a special blockchain location
   blockChainDefaultDir := ExpandConstant('{commonappdata}\bitmonero');
-  s := 'The default folder to store the Monero blockchain is ' + blockChainDefaultDir;
+  s := 'The default folder to store the Triton blockchain is ' + blockChainDefaultDir;
   s := s + '. As this will need more than 60 GB of free space, you may want to use a folder on a different drive.';
   s := s + ' If yes, specify that folder here.';
 
@@ -362,7 +362,7 @@ begin
     s[0] := 'REM Execute the Monero daemon and then stay with window open after it exits';
     s[1] := '"' + ExpandConstant('{app}\monerod.exe') + '" ' + DaemonFlags('');
     s[2] := 'PAUSE';
-    SaveStringsToFile(ExpandConstant('{app}\monero-daemon.bat'), s, false); 
+    SaveStringsToFile(ExpandConstant('{app}\monero-daemon.bat'), s, false);
   end;
 end;
 
@@ -380,7 +380,7 @@ end;
 [Icons]
 ; Icons in the "Monero GUI Wallet" program group
 ; Windows will almost always display icons in alphabetical order, per level, so specify the text accordingly
-Name: "{group}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"
+Name: "{group}\GUI Wallet"; Filename: "{app}\triton-wallet-gui.exe"
 Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
 
 ; Sub-folder "Utilities";
@@ -395,17 +395,17 @@ Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\monero-wallet-c
 
 ; Icons for troubleshooting problems / testing / debugging
 ; To show that they are in some way different (not for everyday use), make them visually different
-; from the others by text, and make them sort at the end by the help of "x" in front 
+; from the others by text, and make them sort at the end by the help of "x" in front
 Name: "{group}\Utilities\x (Check Blockchain Folder)"; Filename: "{win}\Explorer.exe"; Parameters: {code:BlockChainDir}
 Name: "{group}\Utilities\x (Check Daemon Log)"; Filename: "Notepad"; Parameters: {code:DaemonLog}
 Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: "{userdocs}\Monero\wallets"
-Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: "{app}\monero-wallet-gui.log"
+Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: "{app}\moner-wallet-gui.log"
 Name: "{group}\Utilities\x (Try Daemon, Exit Confirm)"; Filename: "{app}\monero-daemon.bat"
 Name: "{group}\Utilities\x (Try GUI Wallet Low Graphics Mode)"; Filename: "{app}\start-low-graphics-mode.bat"
 Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM monerod.exe /T /F"
 
 ; Desktop icons, optional with the help of the "Task" section
-Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"; Tasks: desktopicon
+Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\triton-wallet-gui.exe"; Tasks: desktopicon
 
 
 [Registry]
@@ -415,4 +415,3 @@ Name: "{userdesktop}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"; Tasks
 Root: HKCU; Subkey: "Software\monero-project"; Flags: uninsdeletekeyifempty
 Root: HKCU; Subkey: "Software\monero-project\monero-core"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\monero-project\monero-core"; ValueType: string; ValueName: "blockchainDataDir"; ValueData: {code:BlockChainDirOrEmpty};
-

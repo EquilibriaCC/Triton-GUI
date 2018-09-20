@@ -2128,8 +2128,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>모든 거래에 대해 작은 수수료가 부과됩니다. 해당 옵션은 수수료 이외에 수수료의 일부에 해당하는 금액을 모네로 개발팀에 기부하는 것을 허용합니다. 예를 들어, 자동 기부율이 50%이고 거래 수수료가 0.005 XMR이면 0.0025 XMR이 개발팀에 대한 기부로 거래금액에 추가됩니다.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>모든 거래에 대해 작은 수수료가 부과됩니다. 해당 옵션은 수수료 이외에 수수료의 일부에 해당하는 금액을 모네로 개발팀에 기부하는 것을 허용합니다. 예를 들어, 자동 기부율이 50%이고 거래 수수료가 0.005 XTR이면 0.0025 XTR이 개발팀에 대한 기부로 거래금액에 추가됩니다.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2620,7 +2620,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="864"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
+        <translation>이 주소로 %1 XTR을 받아, %2 번의 컨펌을 받았습니다.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1734"/>
@@ -2644,8 +2644,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>monero-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>triton-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="666"/>
@@ -2681,7 +2681,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="861"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
+        <translation>이 주소는 % 1XTR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>

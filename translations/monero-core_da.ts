@@ -2172,8 +2172,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>For hver transaktion, ville der blive trukket et lille gebyr. Denne mulighed lader dig tilføje et ekstra beløb, som en procentdel af den gebyr til din transaktion for at støtte Monero udvikling. F.eks. ville en 50% autodonation tag en transaktions gebyr på 0,005 XMR og lægge 0,0025 XMR oveni for at støtte Monero&apos;s udvikling.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>For hver transaktion, ville der blive trukket et lille gebyr. Denne mulighed lader dig tilføje et ekstra beløb, som en procentdel af den gebyr til din transaktion for at støtte Monero udvikling. F.eks. ville en 50% autodonation tag en transaktions gebyr på 0,005 XTR og lægge 0,0025 XTR oveni for at støtte Monero&apos;s udvikling.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2738,7 +2738,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Ny version af monero-tegnebog-gui er tilgængelig: %1&lt;br&gt;%2 </translation>
     </message>
     <message>

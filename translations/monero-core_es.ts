@@ -2186,8 +2186,8 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Por cada transacción, se carga una pequeña comisión. Esta opción le permite añadir una cantidad adicional, como porcentaje de esta comisión, para dar apoyo a Monero. Por ejemplo, una autodonación del 50% de una comisión de 0.005 XMR añade 0.0025 XMR para apoyar el desarrollo de Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Por cada transacción, se carga una pequeña comisión. Esta opción le permite añadir una cantidad adicional, como porcentaje de esta comisión, para dar apoyo a Monero. Por ejemplo, una autodonación del 50% de una comisión de 0.005 XTR añade 0.0025 XTR para apoyar el desarrollo de Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2837,8 +2837,8 @@ Comisión: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nueva versión de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nueva versión de triton-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1817"/>

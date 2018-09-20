@@ -2132,8 +2132,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Jokaisen siirron yhteydessä veloitetaan pieni siirtokulu. Voit lisäksi tukea Moneron kehitystä valitsemalla tässä lisäsumman (prosenttiosuutena siirtokulusta). Esimerkiksi 50% automaattilahjoitus lahjoittaa 0.0025 XMR siirtokulun ollessa 0.005 XMR.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XTR and add a 0.0025 XTR to support Monero development.</source>
+        <translation>Jokaisen siirron yhteydessä veloitetaan pieni siirtokulu. Voit lisäksi tukea Moneron kehitystä valitsemalla tässä lisäsumman (prosenttiosuutena siirtokulusta). Esimerkiksi 50% automaattilahjoitus lahjoittaa 0.0025 XTR siirtokulun ollessa 0.005 XTR.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2699,8 +2699,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1785"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Uusi versio monero-wallet-gui:sta saatavilla: %1&lt;br&gt;%2</translation>
+        <source>New version of triton-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Uusi versio triton-wallet-gui:sta saatavilla: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1817"/>
