@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/triton-io/Triton-New
+MONERO_URL=https://github.com/TritonNetwork/TritonProtocol
 MONERO_BRANCH=master
 
 pushd $(pwd)
@@ -16,7 +16,7 @@ if [ ! -d $MONERO_DIR/src ]; then
     git submodule init triton
 fi
 git submodule update --remote
-git -C $MONERO_DIR fetch
+git -C $MONERO_DIR fetchx
 git -C $MONERO_DIR checkout release-v0.12
 
 # get triton core tag
