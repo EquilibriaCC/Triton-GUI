@@ -168,6 +168,12 @@
         <file>images/fullscreen.png</file>
         <file>images/close.png</file>
         <file>images/moneroLogo_white.png</file>
+        <file>images/eyeHide.png</file>
+        <file>images/eyeShow.png</file>
+        <file>images/minus-white.png</file>
+        <file>images/plus-white.png</file>
+        <file>images/minus-white@2x.png</file>
+        <file>images/plus-white@2x.png</file>
         <file>images/moneroIcon-trans28x28.png</file>
         <file>images/moneroIcon-trans84x84.png</file>
         <file>images/moneroIcon-trans56x56.png</file>

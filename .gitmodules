@@ -1,6 +1,6 @@
-[submodule "triton"]
-	path = triton
-	url = https://github.com/TritonNetwork/TritonProtocol
+[submodule "monero"]
+	path = monero
+	url = https://github.com/monero-project/monero
 	ignore = all
 [submodule "triton"]
 	path = triton
