@@ -293,7 +293,7 @@ Rectangle{
 
                 property var rna: persistentSettings.remoteNodeAddress
                 daemonAddrText: rna.search(":") != -1 ? rna.split(":")[0].trim() : ""
-                daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "18081" : rna.split(":")[1] : ""
+                daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "9321" : rna.split(":")[1] : ""
                 onEditingFinished: {
                     persistentSettings.remoteNodeAddress = remoteNodeEdit.getAddress();
                     console.log("setting remote node to " + persistentSettings.remoteNodeAddress)
@@ -331,7 +331,7 @@ Rectangle{
             Rectangle {
                 id: rectConnectRemote
                 Layout.topMargin: 12 * scaleRatio
-                color: MoneroComponents.Style.buttonBackgroundColorDisabled
+                color: MoneroComponents.Style.buttonBackgroundColor
                 width: btnConnectRemote.width + 40
                 height: 26
                 radius: 2
@@ -416,7 +416,7 @@ Rectangle{
                     Layout.fillWidth: true
                     fontSize: 15 * scaleRatio
                     labelFontSize: 14 * scaleRatio
-                    property string style: "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #04adee}</style>"
+                    property string style: "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #FF6C3C}</style>"
                     labelText: qsTr("Blockchain location") + style + qsTr(" <a href='#'> (change)</a>") + translationManager.emptyString
                     placeholderText: qsTr("(default)") + translationManager.emptyString
                     placeholderFontSize: 15 * scaleRatio
@@ -479,7 +479,7 @@ Rectangle{
                         daemonPortText: {
                             var node_split = persistentSettings.bootstrapNodeAddress.split(":");
                             if(node_split.length == 2){
-                                (node_split[1].trim() == "") ? "18081" : node_split[1];
+                                (node_split[1].trim() == "") ? "9321" : node_split[1];
                             } else {
                                 return ""
                             }
